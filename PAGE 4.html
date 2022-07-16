@@ -6,6 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    A{
+        margin: 70px;
+    }
+   .section {
+        margin:0;
+        padding:0;
+        box sizing:border-box;
+        font-family:'Poppins',sans-serif;
+    }
+    .contact{
+        position: relative;
+        min-height: 100vh;
+        padding: 50px 100px;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        flex-direction: column;
+        background-image: url(pics/contact.jpg);
+        background-size: cover;
+    }
+    .contact .content{
+      max-width: 800px;
+      text-align: center;
+    }
+    .contact .content h2{
+        font-size: 36px;
+        font-weight:500;
+        color: gold;
+    }
+    .contact .content p{
+       
+        font-weight:300;
+        color:#fff;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .contact .contactinfo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .container .contactinfo .box{
+        position: relative;
+        padding: 20px;
+        display: flex;
+    }
+    .container .contactinfo .box .icon{
+        min-width: 60px;
+        height: 60px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 22px;
+    }
+</style>
 <body>
     <a href="HOMEPAGE.html">HOME</a>
 
@@ -14,5 +78,70 @@
     <a href="PAGE 2.html" >MEALS</a>
      <a href="PAGE 3.html">FUN & ENTERTAINMENT</a>
       <a  href="PAGE 4.html" >PAGE 4</a>
+    
+      <section class="contact">
+        <div class="content">
+            <h2>CONTACT US</h2>
+        </div>
+        <div class="container">
+        <div class="contactInfo">
+            <div class="box">
+                <div class="icon"></div>
+                <div class="text">
+                    <h3>ADRESS</h3>
+                    <p>djvwioedcwim</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="box">
+        <div class="icon"></div>
+        <div class="text">
+            <h3>EMAIL</h3>
+            <P>sdovnsdvkcmsdno</P>
+        </div>
+    </div>
+
+</div>
+</div>
+<div class="box">
+    <div class="icon"></div>
+    <div class="text">
+        <h3>PHONE</h3>
+        <p>sjdnciwnecmwd</p>
+    </div>
+</div>
+
+</div>
+<div class="contactform">
+    <form>
+        <h2>send message</h2>
+        <div class="input box">
+            <input type="text" name="" required="required">
+            <span>FULL NAME</span>
+        </div>
+        <div class="input box">
+            <input type="text" name="" required="required">
+            <span>EMAIL</span>
+        </div>
+        <div class="input box">
+            <input type="text" name="" required="required">
+            <span>CONTACT</span>
+        </div>
+        <div class="input box">
+        <textarea required="required"></textarea>
+            <span>TYPEYOUR MESSAGE....</span>
+        </div>
+        <div class="input box">
+            <input type="submit" name="" value="send">
+         
+        </div>
+    </form>
+</div>
+</div>
+      </section>
+
+
 </body>
 </html>
